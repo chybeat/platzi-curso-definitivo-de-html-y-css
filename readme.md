@@ -1,6 +1,6 @@
 # Curso definitivo de HTML y css
 
-This repository was intented to maintain and preserve the working files and challenges from platzi's "Curso definito de HTML y CSS"
+This repository was intented to maintain and preserve the working files and challenges from platzi's "Curso definito de HTML y CSS". you can see in [https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/)
 
 ## Clases
 
@@ -16,7 +16,7 @@ The "clases" folder has the files used or created during class
 
 ## Reto Lista de alimentos (retoListaAlimentos.html)
 
-View: [lista de alimentos](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/)
+View: [lista de alimentos](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/retos/listaAlimentos/index.html)
 
 The challenge have these parameters
 
