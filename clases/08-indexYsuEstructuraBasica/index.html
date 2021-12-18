@@ -1,0 +1,87 @@
+<!-- Determina que el tipo de contenido del documento es HTML -->
+<!DOCTYPE html>
+
+<!-- Etiqueta principal, el atributo "lang" determina el idioma en el que está escrito el documento o página -->
+<html lang="es">
+	<!-- En head va todo lo necesario para cargar en la página pero que a la vez no es visual para el usuario, dependencias, librerias, estilos, etc-->
+	<head>
+		<!-- La etiqueta meta sirven para configurar datos informativos de una página-->
+		<!-- "charset" ayuda al navegdor a enteder caracteres espciales (fuera del inglés)-->
+		<meta charset="UTF-8" />
+
+		<!-- name="description" indica que el "content" da información de que trata la página -->
+		<meta name="description" content="Página informativa sobre lo básico que debe ir en cualquier página" />
+
+		<!-- Indica a los robots de buscadores que realicen una indexación y continuo seguimiento de la página-->
+		<meta name="robots" content="index,follow" />
+
+		<!-- Titulo de lá pagina-->
+		<title>Información básica de un archivo HTML</title>
+
+		<!-- Utilizada para responsive design. Indica que el ancho de la zona visual (viewport) sea el ancho del dispositivo o ventana (device-width) y que la escala esté en proporción del 100% (sin aumento o reducción) al tamaño de visualización de objetos que en el dipositivo se haya configurado-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Esta etiqueta permite el enlace de un archivo y que tipo de relación (rel) tiene con el documento HTML, en este caso la relacón es a una hoja de estilos. href indica la ruta y/o nombre del archivo que contiene los datos de estilo-->
+		<link rel="stylesheet" href="./css/estilos.css" />
+	</head>
+	<!-- En Body va toda la información, lo que el usuario verá sea texto, fotos, imagenes, videos y tambien es el área donde el usuario podrá interactuar-->
+	<body>
+		<!--ETIQUETAS CONTENEDORAS-->
+
+		<!-- Etiqueta contenedora del encabezado de la página-->
+		<header>
+			<!-- Etiqueta contenedora del área o barra de navegación de la web-->
+			<nav>
+				<ul>
+					<li><a href="listaAlimentos.html">Lista de alimentos</a></li>
+					<li><a href="claseImg/">Etiquetas de imagenes</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- área principal del contenido de la página -->
+		<main>
+			<!-- Sección de un tema o contenido global de una página-->
+			<section>
+				<!-- Contenedor de toda o parte de la información específica de un tema o contenido -->
+				<article></article>
+			</section>
+			<!-- Listas o listado de elementos-->
+			<!-- Listas no organizadas o representadas por un caracter específico igual en todas-->
+			<ul>
+				<!-- Elemento de una lista-->
+				<li>Etiquetas principales como doctype, html, head y body</li>
+				<li>Lista desordenada o Listado de elementos sin secuencia</li>
+				<li>Una buena practica es utilizar HTML semántico</li>
+			</ul>
+			<!-- Listas organizadas y representadas por secuencias de caracteres-->
+			<ol>
+				<li>Generar una etiqueta Body</li>
+				<li>Crear una etiqueta de cabezera (header)</li>
+				<li>Crear una etiqueta contenido principal (main)</li>
+				<li>Colocar el tipo de lista (ul / ol)</li>
+				<li>Colocar los elementos de la lista dentro de la etiqueta (li)</li>
+			</ol>
+			<!-- Una etiqueta comodín que sirve como contenedor, pero que no define que tipo de contenido se va a renderizar-->
+			<div></div>
+
+			<!--ETIQUETAS DE CONTENIDO-->
+			<!-- Etiqueta de contenido para escribir textos o parrafos-->
+			<p>Etiqueta de parrafo o texto</p>
+
+			<!--Etiquetas de encabezado o título principal. Debe existir solo uno por página-->
+			<h1>Título principal</h1>
+
+			<!-- Etiquetas de título secundarios. Se pueden utilizar dependiendo de la importancia o profundidad del título-->
+			<h2>Título secundario</h2>
+			<h3>Título de nivel 3</h3>
+			<h4>Título de nivel 4</h4>
+			<h5>Título de nivel 5</h5>
+			<h6>Título de nivel 6</h6>
+
+			<!-- Etiqueta de ancla para generar hiper vínculos donde "href" es el destino. Entre la etiqueta de apertura y cierre va un texto que generalmente indica hacia donde se dirige el vínculo-->
+			<a href="//www.google.com">Visita google</a>
+		</main>
+		<!-- Área para la parte inferior o pié de página -->
+		<footer></footer>
+	</body>
+</html>
