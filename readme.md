@@ -16,7 +16,7 @@ The "clases" folder has the files used or created during class
 
 ## Reto Lista de alimentos (retoListaAlimentos.html)
 
-View: [retos/listaAlimentos/](retos/listaAlimentos/index.html)
+View: [lista de alimentos](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/)
 
 The challenge have these parameters
 
