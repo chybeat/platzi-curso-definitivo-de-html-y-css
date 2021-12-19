@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Etiqueta Video</title>
+	</head>
+	<body>
+		<main>
+			<section>
+				<video controls preload="metadata" alt="Flying Along Taksin Bridge" width="640" height="362">
+					<!--
+controls: muestra los controles de reproduccón en el video
+preload: sirve para indicar como se precargará el video en la página.
+    auto = Se cargará el video cuando la página se cargue
+    metadata = El navgegador cargará solo la información de referencia del video
+    none = El navegador no cargará información alguna del video
+src={videofile.mp4}#t=xxx,xxx : significa los tiempos (en segundos) de inicio y pausa o fin del video, si se omite la parte desde de la coma (,xxx) el video se reproducirá hasta el final desde donde se coloque el inicio.
+-->
+					<source
+						src="https://cdn.videvo.net/videvo_files/video/free/2019-01/large_watermarked/190111_04_TaksinBridge_Drone_02_preview.mp4#t=5,8"
+					/>
+					<source
+						src="https://cdn.videvo.net/videvo_files/video/free/2019-01/large_watermarked/190111_04_TaksinBridge_Drone_02_preview.m4v#t=5,8"
+					/>
+					<!-- La etiqueta source sirve para colocar la fuente del video. En caso de tener varios formatos para compatibilidad con distintos navegadores, se puede colocar una etiqueta source por cada formato.-->
+				</video>
+			</section>
+		</main>
+		<footer>
+			<p>
+				Flying Along Taksin Bridge - Video by
+				<a href="https://www.videvo.net/profile/videvo/">videvo</a> from
+				<a href="https://www.videvo.net/free-stock-footage/sort/popular/">videvo.net</a>
+			</p>
+		</footer>
+	</body>
+</html>

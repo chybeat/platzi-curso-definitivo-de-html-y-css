@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Etiqueta select</title>
+	</head>
+	<body>
+		<main>
+			<article>
+				<p>Cursos (select normal)</p>
+				<select name="cursos-select-normal">
+					<!--
+Select es la etiqueta funciona para ver listas de elementos
+name: Indica el nombre de la lista
+-->
+					<option value="js">JavaScript</option>
+					<!--
+option contiene un elemento para la etiqueta lista
+value: es el valor del elemento seleccionado de la lista.
+-->
+					<option value="html">HTML5</option>
+					<option value="css">CSS3</option>
+					<option value="web-standards">Web Standards</option>
+				</select>
+
+				<p>Cursos (select con grupos)</p>
+				<select>
+					<optgroup label="Fronted">
+						<!--
+optgroup sirve para agrupar varias opciones de un mismo tema o grupo
+-->
+						<option value="js">JavaScript</option>
+						<option value="html">HTML5</option>
+						<option value="css">CSS3</option>
+					</optgroup>
+					<optgroup label="Backend">
+						<option value="php">PHP</option>
+						<option value="django">Django</option>
+						<option value="nodejs">Node.js</option>
+					</optgroup>
+					<optgroup label="Otros">
+						<option value="web-standards">Web Standards</option>
+						<option value="algoritmos">Algoritmos</option>
+					</optgroup>
+				</select>
+
+				<p>Usando input list</p>
+				<input list="cursos" />
+				<!--
+list: funciona llamando el listado que tenga el id en su valor, es un mejor método en lugar de usar select que adicionalmente permite capturar nueva información.
+-->
+				<datalist id="cursos">
+					<!--
+datalist es la etiqueta que encierra los datos datos de una lista que se puede usar con la etiqueta <input list="">
+-->
+					<option value="HTML5"></option>
+					<option value="CSS3"></option>
+					<option value="Web Standards"></option>
+					<option value="JavaScript"></option>
+				</datalist>
+			</article>
+			<article>
+				<h2>&lt;input type="submit"&gt; vs &lt;button&gt;&lt;/button&gt;</h2>
+				<p>Submit:</p>
+				<input type="submit" value="Envíame" />
+				<p>Etiqueta button:</p>
+				<button>Qué color te gusta</button>
+				<!--
+La etiqueta button sirve como contenedor de un texto que se renderizará visualmente como un botón, pero que no realiza acción alguna por si misma
+-->
+			</article>
+		</main>
+	</body>
+</html>

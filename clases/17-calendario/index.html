@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formularios</title>
+	</head>
+	<body>
+		<form action="">
+			<label for="hora"><span>Hora</span></label>
+			<input type="time" id="hora" name="hora" />
+			<!--
+name sirve para identificar el dato que se envía desde un formulario similar a las variables. Ej hora="15:36"
+-->
+			<label for="dia"><span>Día</span></label>
+			<input type="date" id="dia" name="dia" required />
+
+			<label for="semana"><span>Semana</span></label>
+			<input type="week" id="semana" name="semana" />
+			<!--
+El tipo week muestra un calendario donde se puede seleccionar la semana de un año al dar click sobre un día o los espacios para colocar el número de la semana y el año.
+-->
+			<label for="mes"><span>Mes</span></label>
+			<input type="month" id="mes" name="mes" />
+			<!--
+El tipo week muestra un calendario donde se puede seleccionar la semana de un año al dar click sobre un día o los espacios para colocar el número de la semana y el año.
+-->
+			<input type="submit" value="Solicitar" />
+			<!--
+El tipo submit muestra un botón que realiza el envío de datos a donde apunta el atributo "action" de la etiqueta form,
+value sirve para modificar el texto predeterminado dentro del boton de envío
+-->
+		</form>
+		<form action="">
+			<label for="Calendario"><span>Calendario</span> </label>
+			<input type="datetime-local" id="calendario" name="calendario" />
+			<input type="submit" value="Solicitar" />
+			<!--
+El tipo datetime-local muestra un calendario con horario
+-->
+		</form>
+		<form action="">
+			<h2>Atributos require y autocomplete</h2>
+			<label for="nombre">
+				<span> ¿Cuál es tu nombre? </span>
+			</label>
+			<input type="text" id="nombre" name="nombre" autocomplete="name" required />
+			<!--
+autocomplete: sirve para que el usuario no tenga que llenar un campo con un dato, sino que utilice un información previa guardado en el navegador
+require> es un atributo que se coloca para que un elemento del navegador no se envíe vacio
+-->
+			<label for="correo">
+				<span> ¿Cuál es tu correo? </span>
+			</label>
+			<input type="mail" id="correo" name="correo" autocomplete="email" required />
+			<!--
+El tipo mail hace una validación para que el correo tenga ciertos parámetros (como una arroba, sin caracteres invalidos, etc).
+-->
+			<label for="pais">
+				<span> ¿En que país vives? </span>
+			</label>
+			<input type="texto" id="pais" name="pais" autocomplete="country" required />
+			<label for="cp">
+				<span> ¿Cuál es tu código postal> </span>
+			</label>
+			<input type="number" id="cp" name="cp" autocomplete="postal-code" required />
+			<input type="submit" value="Presioname!" />
+		</form>
+	</body>
+</html>

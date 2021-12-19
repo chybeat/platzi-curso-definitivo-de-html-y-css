@@ -8,9 +8,12 @@ This repository was intented to maintain and preserve the working files and chal
 
 The "clases" folder has the files used or created while studing
 
-1. **08-indexYsuEstructuraBasica/**: [index.html] https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/08-indexYsuEstructuraBasica/index.html has some global tags in body and head , the file has an HTML comments about some tags in code an possible uses.
-
-1. **13-etiquetaImg/**: Use of the `<img>` tag and `<figure>` tag
+1. **08-indexYsuEstructuraBasica**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/08-indexYsuEstructuraBasica/index.html "View code for indexYsuEstructuraBasica on index.html") has some global tags in body and head , the file has an HTML comments about some tags in code an possible uses.
+1. **13-etiquetaImg**: [index.html ](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/13-etiquetaImg/index.html "View code for etiquetaImg on index.html") Shows some use of the `<img>` tag and `<figure>` tag
+1. **15-etiquetaVideo**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/15-etiquetaVideo/index.html "View code for etiquetaVideo on index.html") Shows some use of the `<video>` tag and `<source>` tag
+1. **16-forms**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/16-forms/index.html "View code for forms on index.html") Shows some use of the `<form>`, `<label>` and `<input>` tags
+1. **17-calendario**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/16-calendario/index.html "View code for calendario on index.html") Shows some `<input>` tags with types for calendar like week, datetime-local, etc and the attributes "require" and "autocomplete" in some `<input>` tags
+1. **19-select**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/19-select/index.html "View code for select tag on index.html") Shows the standarized use of `<select>` and `<option>` tags. Additionaly a best way to lists elements using `<input list="id-datalist">` and `<datalist id='id-datalist'>` and a diference between `<button>` tag and `<input type="submit">`
 
 ---
 
