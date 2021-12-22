@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CSS</title>
+		<link rel="stylesheet" href="./style.css" />
+		<!--
+La mejor forma de agregar estilos es con la etiqueta link
+-->
+		<style>
+			p {
+				color: blue;
+				font-weight: bold;
+			}
+		</style>
+		<!--
+La etiqueta style dentro de head se recomienda para usos muy y puntuales. No es una buena practica utilizarla
+-->
+	</head>
+	<body>
+		<p style="color: red; font-size: 30px">Soy un texto</p>
+		<!--
+La peor practica pero aveces requerida es utilizar el atributo style con el código css como un valor, separando propiedad de CSS con ";"
+
+>>>>A tener en cuenta<<<<
+
+Los estilos se van sobre escribiendo a medida que se colocan mas abajo uno de otro. Si la etiqueta style en head se coloca antes de la etiqueta link y el archivo .css tiene elementos que modifican lo que esté dentro de la etiqueta style, se tomarán los del archivo. Por otro lado el codigo embebido con el atributo style siempre tendrá más prioridad que lo que se haya colocado antes ya sea desde el archivo .css o desde la etiqueta style
+-->
+		<p>En CSS se pueden llamar los estilos a un etiqueta de 3 modos</p>
+		<ol>
+			<li class="explicativo">Con el nombre de la etiqueta (p, li, span, article, select, etc)</li>
+			<li class="explicativo">Con el atributo class de la etiqueta</li>
+			<!--
+El atributo class de una etiqueta hace referencia a un nombre utilizado con algún fin en una etiqueta, el nombre puede ser colocado en tantas etiquetas como se requiera, a diferencia de ID que debe ser único para una etiqueta en todo el documento
+-->
+			<li class="explicativo" id="unico">Con el atributo id en una etiqueta</li>
+		</ol>
+	</body>
+</html>

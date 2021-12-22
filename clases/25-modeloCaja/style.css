@@ -1,0 +1,19 @@
+/*
+*(asterisco) es el selector universal, indica que todos los elementos contengrán el estilo que se coloque
+*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/*
+	box-sizing: border-box hace que el tamaño de la caja sea exactamente el que se especifique (para main es 100%)
+	restando el tamaño de los elementos internos de la caja (padding y border) para dejar el contenido y evitar
+	solapamiento de la caja
+*/
+}
+main {
+	width: 100%;
+	height: 500px;
+	border: 10px solid grey;
+	padding: 20px 35px;
+}

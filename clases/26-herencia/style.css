@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 75%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+	font-size: inherit;
+}
+.herencia {
+	margin-top: 30px;
+}
+/*
+La herencia hace que el valor de una propiedad se pase de un elemento a otro sobreescribiendo su valor
+predeterminado o heredado. En el caso de h1 el navegador le coloca un valor específico al tamaño de texto
+pero al decir que su "font-size" lo herede (inherit), le esdtamos diciendo que tome el anterior valor
+especificado en alguna etiqueta de su rama (para este caso en html), sería de igual modo si se coloca en body
+(ver index.html para ver las ramas superiores).
+
+Los estilos se cargan con el siguiente orden de importancia:
+1. Estilos del navegador
+2. Declaraciones en archivos .css
+3. Declaraciones con valor !important (mala práctica)
+
+Los estilos se renderizan y presentan asi:
+
+|-------------------|-------------|----------------------------------------------------------------------------------|
+|     Selectores    | Especifidad |                                  Descripción                                     |
+|-------------------|-------------|----------------------------------------------------------------------------------|
+|     !important    | 1.0.0.0.0   | Es el pririotario, se le dará total importancia con este valor en la declaración |
+|   inline styles   | 0.1.0.0.0   | Son las declaraciones en etiqueta con el atriburo style=""                       |
+|        #id        | 0.0.1.0.0   | Son las declaraciones a los id desde un archivo css                              |
+|      .class       | 0.0.0.1.0   | Son las declaraciones a las clases desde un archivo css                          |
+|        tag        | 0.0.0.0.1   | Son las declaraciones a los selectores de etiquta desde un archivo css           |
+|-------------------|-------------|----------------------------------------------------------------------------------|
+
+Igualmente la especifidad puede "potenciarse" si se realiza un llamado con cualquier otro selector, es decir si se realiza un llamado a un elemento con 2 clases le dara un peso adicional y esto aumenta la posibilidad evitar !important.
+
+Otra forma de activar prioridad es colocar más abajo en un archivo CSS las declaraciones que se requieren priorizar ej:
+
+si en este se colocase
+h2{
+	font-size:10px;
+}
+la declaracion de herencia que esta al principio del documento se sobreescribirá
+
+Sin embargo no hay forma que una clase tenga prioridad sobre un ID, para solucionarlo se debe cambiar las declaraciones a los selectores mas flexibles o que puedan corresponder
+
+*/
+
+h1 {
+	color: purple;
+	font-family: serif;
+	margin-bottom: 10px;
+}
+
+.page-header__title {
+	font-size: 18px;
+	font-family: monospace;
+	/* monospace no se toma ya que el id (#page-title), es más importante y tomará como prioridad el id. Las dev tools de chrome, ayuda mostrar las prioridades que se le dan a las declaraciones de CSS*/
+}
+
+/*
+#main-nav {
+	list-style: none;
+	margin-top: 10px;
+	padding-left: 0px;
+	Los id no deben utilizarse para colocar estilos, es una mala práctica. Para llegar a ese un punto de especifidad se puede utilizar el "peso" que puede dar la espcifidad de dos clases o más como en el ejemplo de ".nav .blog". En ese caso, el color de fondo que se renderiza es más importante que el dado anteriormente en .nav__link.
+}
+*/
+.nav {
+	list-style: none;
+	margin-top: 10px;
+	padding-left: 0px;
+}
+
+.nav__item {
+	display: inline-block;
+}
+
+.nav__link {
+	background-color: #13a4a4;
+	border-radius: 2px;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+.nav .blog {
+	background-color: red;
+	/*
+	/*	background-color: red !important;
+	!important es un atributo que se debe intentar no usar, es una mala práctica, para solucionarlo se debe evitar utilizar código embendido en HTML y el uso de selectores con id (ej: #main-nav)
+*/
+}

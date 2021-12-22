@@ -1,0 +1,17 @@
+p {
+	color: green;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* class */
+
+.explicativo {
+	color: orange;
+}
+
+/* ID */
+#unico {
+	color: orchid;
+	font-size: 20px;
+}

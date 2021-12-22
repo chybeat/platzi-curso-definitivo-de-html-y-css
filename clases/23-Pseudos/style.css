@@ -1,0 +1,55 @@
+/*
+Anatomía de una regla de CSS
+para:
+.main-nav {
+	list-style: none;
+}
+.main-nav > Es el selector
+list-style: none > El conjuntoi se llama la declaración de una propiedad CSS
+list-style > Es la porpiedad
+none > Es el valor de la propiedad
+}
+
+*/
+.main-nav {
+	list-style: none;
+	margin-top: 10px;
+	padding-left: 0;
+	background-color: #13a4a4;
+}
+.main-nav__item {
+	display: inline-block;
+}
+
+.main-nav__item a {
+	color: white;
+	padding: 5px;
+	border-radius: 2px;
+	text-decoration: none;
+}
+
+/*
+Pseudo clases y pseudo elementos
+
+Las peudo clases definen el estilo de un estado especial de un elemento
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
+
+Los pseudo elementos definen el estilo de una parte especifica de un elemento
+https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements
+*/
+.main-nav__item a:hover {
+	color: blue;
+}
+
+/*Pseudo clase hover: sucede al colocar o pasar el mouse sobre un elemento */
+
+.main-nav__item a:active {
+	color: red;
+}
+/*Pseudo clase active: sucede al dar clic sobre un elemento */
+
+.main-nav__item a::after {
+	content: " | ";
+}
+
+/*Pseudo elemento after: coloca un contenido o estilo después de donde se posicione el elementos*/

@@ -1,0 +1,130 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #0c151e;
+	color: #a5abb1;
+}
+
+a:hover {
+	color: #8abef1;
+	text-decoration: none;
+}
+
+h1 {
+	color: orange;
+	font-size: 24px;
+}
+/* clases */
+
+.alimento {
+	border-radius: 16px;
+	border: 1px solid #a5abb1;
+	display: inline-block;
+	margin: 8px;
+	padding: 8px;
+	width: 320px;
+}
+
+.alimento__titulo {
+	display: block;
+	font-size: 28px;
+}
+.alimento__tarjeta {
+	margin: 0;
+}
+
+.alimento__palomita {
+	height: 28px;
+	margin: 0 7px 0 0;
+	padding: 0;
+	width: 28px;
+}
+
+.alimento__enlace-foto {
+	display: block;
+	margin: 16px 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.alimento__vista-previa {
+	height: 96px;
+}
+
+.alimento__enlace-receta {
+	display: block;
+	color: #3a98f9;
+	text-align: center;
+}
+.alimento__icono-receta {
+	margin: 0 8px 0 0;
+	width: 16px;
+	height: 16px;
+	filter: invert(0.6);
+}
+
+.cabecera {
+	margin: 16px;
+}
+
+.tituloEnlace__enlace-externo {
+	color: darkgoldenrod;
+	font-size: 18px;
+}
+
+.grupo-alimentos__titulo {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navegador {
+	display: block;
+	padding: 0;
+}
+.navegador__elemento {
+	display: inline-block;
+}
+.navegador__enlace {
+	color: #3a98f9;
+	display: block;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+
+/* ID */
+
+.vegetales {
+	color: green;
+}
+
+.frutas {
+	color: hotpink;
+}
+
+.proteinas {
+	color: darkred;
+}
+
+.grasas {
+	color: yellowgreen;
+}
+
+.salsas-condimentos {
+	color: brown;
+}
+
+.harinas {
+	color: burlywood;
+}
+
+.granos {
+	color: green;
+}
+
+.varios {
+	color: violet;
+}
+
+.lacteos {
+	color: #c5c5c5;
+}
