@@ -1,6 +1,12 @@
-h2 + p {
+.adjacent-sibling h2 + p {
 	color: red;
 }
 /*
-Adjancet sibling o hermano cercano se especifica con el simbolo "+". Esto quiere dedir que tome las etiquetas p que estén después a un h2, en el ejemplo hay una etiqueta p que tiene un h3 en medio del "h2" y el "p", que no hace parte del cambio a color rojo
+Adjacent sibling o hermano cercano se especifica con el simbolo "+". Esto quiere dedir que tome las etiquetas p que estén después a un h2, en el ejemplo hay una etiqueta p que tiene un h3 en medio del "h2" y el "p", que no hace parte del cambio a color rojo
 */
+.general-sibling h2 ~ p {
+	color: blue;
+	/*
+General sibling o hermano general se especifica con "~" (virgulilla). Esto quiere decir que tome las etiquetas p que tengan un h2 dentro de la misma etiqueta padre (div en este caso)
+*/
+}
