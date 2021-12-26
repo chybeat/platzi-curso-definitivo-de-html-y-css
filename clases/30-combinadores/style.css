@@ -10,3 +10,40 @@ Adjacent sibling o hermano cercano se especifica con el simbolo "+". Esto quiere
 General sibling o hermano general se especifica con "~" (virgulilla). Esto quiere decir que tome las etiquetas p que tengan un h2 dentro de la misma etiqueta padre (div en este caso)
 */
 }
+
+.child article > p {
+	color: green;
+	/*
+Child sibling o hijo directo se especifica con ">" (virgulilla). Esto quiere decir que tome las etiquetas p esten inmediatamente dentro de una etiqueta article o hijo directo de parrafo
+*/
+}
+.child section > p {
+	background-color: grey;
+	color: greenyellow;
+	/*
+Existe una etiqueta section que contiene un p pero en ningún momento se toma ya que p está dentro de un div y no INEMADIATAMENTE como lo espcifica el simbolo de hijo ">", Esta regla no se utiliza en ningún apartado
+*/
+}
+.child div > p {
+	background-color: lightgray;
+	color: darkslategray;
+}
+/*****/
+
+.descendant a {
+	text-decoration: none;
+	color: green;
+	/* El espacio, que denota descendiente para CSS, toma todos los elementos descendientes. En este caso toma todas las etiquetas de ancla que están dentro de la clase "descendant",*/
+}
+.descendant a:hover {
+	text-decoration: underline;
+}
+
+.descendant .list a {
+	color: brown;
+	/* Esta especifidad solo cambia el color de las anclas que están dentro del contenedor con la clase "nav*/
+}
+
+/*
+puedes ver el código ejecutándose [desde aquí](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/clases/30-combinadores/)
+*/
