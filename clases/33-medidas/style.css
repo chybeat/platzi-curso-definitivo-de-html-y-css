@@ -1,0 +1,84 @@
+.practice p {
+	font-size: 16px;
+	/* Si es una medida absoluta no se modificará en ningún tamaño de pantalla, si por ejemplo es un porcentaje, tomará el tamaño heredado para sacar el porcentaje */
+}
+
+.practice {
+	background-color: red;
+	width: 600px;
+	height: 500px;
+	/* al colocar un ancho o un alto absoluto que exceda el tamaño de pantalla, genera un scroll, en cualquiera de las direcciones, esto se conoce como "overflow". El overflow que se debe evitar es el horizontal
+	*/
+}
+
+/*************
+  Medida EM
+*************/
+
+body {
+	font-size: 20px;
+}
+
+.text-container {
+	font-size: 1.5em;
+	/* 1em es el 100% del tamaño de fuente del elemento padre, para este caso, quien determina el tamaño es la etiqueta body, ya que en la rama de .text-container ningun otro elemento ha determinado un tamaño distinto*/
+}
+
+.text-container div {
+	font-size: 1.5em;
+	/* hace doble heredado por lo siguiente:
+	1 .text-container tiene un font-size de 1.5em (1.5em de body es igual a 30px)
+	2 div tiene un font-size de 30px (herdado de .text-container) y este determina el tamaño base para tomar un nuevo font-size. Aqui el font-size es 1.5em de 30px ó 45px
+*/
+}
+
+/*************
+  Medida REM
+*************/
+.rem-container p {
+	font-size: 1rem;
+	/* 1rem es el 100% de font-size de html independiemtente si existen otras medidas colocadas en otras ramas (como en esta caso body). Para cambiar el tamaño de rem, la única manera es cambiar el tamaño de fuente a la etiqueta html
+	
+	Una buena práctica es colocar para la etiqueta html un font-size: 62.5% para que tome 1rem como 10px para hacer cálculos de tamaños
+	*/
+}
+.rem-container div p {
+	font-size: 1.25em;
+}
+
+body {
+	margin: 0;
+}
+.vw-vh-max-min,
+.vw-vh-max-min * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.vw-vh-max-min {
+	width: 100vw;
+	height: 100vh;
+	background-color: purple;
+	/*
+	vw y vh represetan el porcentaje de uso del tamaño de la pantalla del navegador. Si existe una barra de desplazamiento, esto generará un scroll horizontal o vertical según corresponda, 
+	*/
+	/* WIDTH HACK NO DE CLASE!*/
+	width: calc(
+		100vw - (100vw - 100%)
+	); /* arreglo para que no se sobresalga. Este apartado es un hack y no hace parte de la clase, funciona para que no genere scroll horizontal */
+}
+
+.vw-vh-max-min article {
+	width: 80%;
+	min-height: 500px;
+	background-color: red;
+	margin: 0 auto;
+
+	min-width: 320px;
+	max-width: 500px;
+
+	/*
+	para colocar un min- max- para alto y/o ancho, es necesario tener uno base para el mismo contenedor
+	*/
+}

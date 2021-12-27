@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Medidas en CSS</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Medidas en CSS</h1>
+		</header>
+		<main>
+			<section>
+				<h2>Explicación</h2>
+				<ul>
+					<li>
+						<strong>Medidas absolutas</strong>: Son las que están dadas pixeles (<strong>px</strong>) ya que no cambian el
+						tamaño en ningún dispositivo
+					</li>
+					<li>
+						<strong>Medidas relativas</strong>: Son las que están dadas en porcentajes, generalmente utilizadas con
+
+						<ul>
+							<li>
+								<code>%</code> hace referencia al porcentaje de la medida heredada desde un elemento padre sea un ancho,
+								alto o tamaño de fuente.
+							</li>
+
+							<li>
+								<code>em</code> / <code>rem</code> que hacen referencia al tamaño de la fuente. Em lo hace heredando en base
+								desde el último elemento padre al que se le haya asignado un tamaño de fuente y rem lo hace en base al
+								tamaño de fuente de la etiqueta html
+							</li>
+							<li>
+								<code>max-with</code> / <code>max-height</code> que determinan un ancho o alto máximo (relativo o absoluto)
+								para un elemento
+							</li>
+							<li>
+								<code>min-with</code> / <code>min-height</code> que determinan un ancho o alto mínimo (relativo o absoluto)
+								para un elemento
+							</li>
+							<li>
+								<code>vh</code> / <code>vw</code> viewport height y viewport width que permite determinar un tamaño en base
+								al alto o ancho de la pantalla del navegador
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="practice">
+				<p>Soy un "p" dentro de un sectión que es modificado desde CSS😄</p>
+			</section>
+			<section id="em-size" class="text-container">
+				<h2>Medidas EM</h2>
+				<p>Soy un texto de ejemplo por fuerita de un div, solo dentro de un section</p>
+				<div>
+					<p>Como parrafo dentro de un div cambio en comparación al otro parrafo!</p>
+					<div>
+						<p>Souy un parrafo dentro de otro div, con tamaños de locura!</p>
+					</div>
+				</div>
+			</section>
+			<section id="rem-size" class="rem-container">
+				<h2>Medidas REM</h2>
+				<p>Texto para manipular desde rem</p>
+				<div>
+					<p>Como parrafo dentro de un div cambio en comparación al otro parrafo!</p>
+					<div>
+						<p>Soy un parrafo dentro de otro div, con tamaños de locura??</p>
+					</div>
+				</div>
+			</section>
+			<section id="vw-vh-max-min-sizes" class="vw-vh-max-min">
+				<h1>viewport, min y max para height y width</h1>
+				<article>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio possimus obcaecati provident est enim magnam
+						praesentium molestiae culpa quidem. Quaerat et similique neque pariatur repudiandae atque exercitationem accusantium
+						assumenda mollitia. Error qui expedita ratione aliquam optio officia illo vero officiis totam doloremque. Quaerat
+						quo eius praesentium impedit, quisquam quis quam tenetur similique delectus magnam facilis voluptatibus sint
+						laudantium laboriosam minus! Modi, eaque? Neque optio odio asperiores mollitia placeat non fugiat, dolores ad
+						facilis nihil repellendus ratione minus at saepe odit quidem, numquam voluptas corrupti commodi. Voluptatibus animi
+						rerum architecto fugiat. Itaque, quas modi. Explicabo aliquam est enim molestias quidem aperiam labore ullam
+						accusantium. Soluta laboriosam distinctio nobis vel quas ipsum harum consequuntur quia provident, mollitia, magnam
+						ullam aliquid aspernatur ut! Ad eum amet laudantium dolorum quos error repellat qui ullam illum cumque vitae
+						reprehenderit ipsa libero possimus quaerat aut ipsum vero voluptatem optio ratione hic, maxime dicta quas
+						repellendus! Debitis? Voluptatem ipsum sit perspiciatis dignissimos quis omnis, cum quisquam repellendus? Voluptate
+						sed, obcaecati dicta soluta inventore adipisci. Animi esse et iure commodi voluptatem modi, error optio vel facilis
+						cupiditate temporibus. Porro officiis nam aliquam repudiandae, officia quasi optio aliquid provident rem, id atque,
+						illum nihil corrupti voluptates quae molestias aperiam excepturi. Molestiae aut dignissimos accusantium quae
+						maiores, minima reiciendis consectetur! Obcaecati exercitationem quam necessitatibus odit vel, voluptatem
+						repudiandae consectetur ea beatae unde vitae rerum, id aspernatur asperiores minus minima impedit. Ipsa,
+						voluptatibus. Dolore maxime vel nemo perferendis ducimus, at expedita?
+					</p>
+				</article>
+			</section>
+		</main>
+	</body>
+</html>
