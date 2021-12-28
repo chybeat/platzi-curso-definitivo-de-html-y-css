@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Display</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="block-element">Soy el contenido del primer div</div>
+		<p class="block-element">Soy una etiqueta de parrafo</p>
+		<!--
+Los elementos div y p vienen predeterminados como un elemento de bloque y se muestra al 100% del ancho de la página sin importar el contenido
+-->
+		<div class="block-element">
+			<p class="parrafo">Parrafito 1</p>
+			<p class="parrafo">Otro parrrafito</p>
+			<p class="parrafo">Un último parrafito</p>
+		</div>
+		<span>Estoy dentro de una etiqueta span.</span>
+		<span>Luego esta otra :P</span>
+		<!--
+La etiqueta span viene predeterminada con la propiedad display en inline, lo que quiere decir que solo ocupará espacio como si fuera texto y si existe espacio para más contenido se pueda rellenar con dicho contenido siempre y cuando no sea una etiqueta que su propiedad display no tenga un valor de block.
+
+Es importante destacar que con elementos que tengan la declaración display:inline no se puede asignar un margin o padding en la parte superior o inferior ni se puede utilizar width o height por su naturaleza lineal.
+-->
+		<ul class="nav">
+			<li>Home</li>
+			<li>Cursos</li>
+			<li>Instructores</li>
+			<li>Blog</li>
+			<!--
+Los elementos en la lista son convertidos en una lista horizontal por medio de display:inline-block. Esto permite realizar cambios iguales a los de un bloque pero con un ancho equivalente a su contenido, el tamaño que ocupan es el de su porpio contenido. El único inconveniete es que si una caja con esta propiedad ocupa más del espacio restante en la línea, la caja hará un salto de línea y podría verse contenido de en bloque
+-->
+		</ul>
+	</body>
+</html>
