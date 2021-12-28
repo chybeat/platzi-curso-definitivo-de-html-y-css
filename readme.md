@@ -20,12 +20,13 @@ The "clases" folder has the files used or created while studing
 1. **26-herencia**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/26-herencia/index.html "View a simply HTML code") and [style.css](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/26-herencia/style.css "a CSS inherith value applied") The simply HTML code in HTML donesn't care, but an explaination about how to apply inheritance with css with 'inherith value' for font-size writed on style.css". Other topic there is about css specificity with some examples. [View rendered code](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/clases/26-herencia/)
 1. **30-combinadores**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/30-combinadores/index.html "HTML code with some adjacent tags") and [style.css](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/30-combinadores/style.css "Style and explanation for selector") A simple HTML structure to demostrate CSS adjacent sibling and CSS with adjacent sibling symbol "+". [View rendered code](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/clases/30-combinadores/)
 1. **33-medidas**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/33-medidas/index.html "View html for sizes") and [style.css](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/33-medidas/style.css "View CSS code and explanation for sizes") The sizes in CSS are absolutes and relatives. HTML get some context about sizes types and CSS code has explanation for use of all. [View rendered code](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/clases/33-medidas/)
+1. **37-position**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/37-position/index.html "HTML Structure with 4 boxes") and [style.css](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/37-position/style.css "CSS code for position") In a 4 boxes structures change the position to 1 box named "two" to relative and absolute positions. [View rendered code](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/clases/37-position/)
 
 ---
 
 ![Carnes](retos/listaAlimentos/img/alimentos/carne-de-res-small.jpg)![granos](retos/listaAlimentos/img/alimentos/frijol-small.jpg)![frutas](retos/listaAlimentos/img/alimentos/naranja-small.jpg)![condimentos](retos/listaAlimentos/img/alimentos/azucar-small.jpg)
 
-## Challenge Lista de alimentos (retoListaAlimentos.html)
+## Challenge: Lista de alimentos
 
 View: [lista de alimentos](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/retos/listaAlimentos/index.html)
 
@@ -58,3 +59,23 @@ Challenge parameters:
 
 1. Just to start I implement the file into list, then added color and font size for titles some class elements to HTML (icon and food groups) and color for text on every group using the id attribute
 1. Bem implemented!. 😱OMG a lot of work in HTML code!
+
+## Challenge: position
+
+View: [position](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/retos/position/index.html)
+
+Challenge parameters:
+
+Create HTML and CSS code to replicate the next picture.
+![Carnes](retos/position/desafio-position.jpg)
+
+### What I did
+
+**HTML**
+
+1. Basic structure with 1 main container and two containers, one for title and one for text
+
+**CSS**
+
+1. Apply bem to structure
+1. CSS for main container, structure container (.reto), title and text container

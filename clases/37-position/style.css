@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+header {
+	margin: 1em;
+}
+
+main,
+main * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.parent {
+	border: 2px dotted black;
+	display: inline-block;
+	/* border da la oportunidad de colcoar un borde al rededor de una caja y display inline-block, organiza cada elemento como como un bloque de modo como si fueran letras. al darle dimensiones se acala un poco más este comportamiento*/
+}
+
+.box {
+	background-color: red;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+#two {
+	background-color: green;
+	position: absolute;
+	/* position:absolute coloca un elemento en un punto inicial o determinado y convirtiéndose en un elemento flotante su punto de referencia para la altura de la capa (z-index), este comportamiento será relativo el último elemento en su árbol que tenga la declaración "position:relative" o la etiqueta html si ninguno tiene la declaración. Su posición se puede determinar con las propiedades top, left, right y/o bottom, su punto inicial es en el lugar donde se posicionaría por el renderizado del código; de especificarse alguna propiedad (top, left, right y/o bottom) el elemento se mueve en base a la posición del elemento padre en el árbol que tenga de position:relative o el root si ninguna lo tiene*/
+}
