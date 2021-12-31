@@ -61,6 +61,8 @@ Challenge parameters:
 1. Just to start I implement the file into list, then added color and font size for titles some class elements to HTML (icon and food groups) and color for text on every group using the id attribute
 1. Bem implemented!. 😱OMG a lot of work in HTML code!
 
+---
+
 ## Challenge: position
 
 View: [position](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/retos/position/index.html)
@@ -68,7 +70,7 @@ View: [position](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css
 Challenge parameters:
 
 Create HTML and CSS code to replicate the next picture.
-![Carnes](retos/position/desafio-position.jpg)
+![position](retos/position/desafio-position.jpg)
 
 ### What I did
 
@@ -80,3 +82,18 @@ Create HTML and CSS code to replicate the next picture.
 
 1. Apply bem to structure
 1. CSS for main container, structure container (.reto), title and text container
+
+---
+
+## Challenge: Layout1
+
+View: [position](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/retos/layout1)
+
+Challenge parameters:
+
+Create HTML and CSS code to create a layout with a header, aside, content an d footer.
+
+1. The header needs a logo in left and nav with 4 elements in right
+1. The aside needs to cover the height of the page with 4 elements covering height. The width
+1. The content may has only one paragraph
+1. The footer diveded in two sections one for social networks and other for information
