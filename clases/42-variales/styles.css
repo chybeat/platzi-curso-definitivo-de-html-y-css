@@ -1,0 +1,41 @@
+:root {
+	/*el selector :root es el punto de partida del documento, al escribirlo del modo que está acá hace referencia a la etiqueta html y es donde se deben colocar las variables*/
+	--primary-color: #003476;
+	/*--primary-color es la forma de generar una variable llamada primary-color*/
+	--secondary-color: #b4d2f7;
+	--header-size: 3.5em;
+	--font: 18px;
+	--heigth-header: 20vh;
+	--heigth-footer: 15vh;
+	--heigth-main: calc(100vh - (var(--heigth-header) + var(--heigth-footer)));
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: var(--primary-color);
+	/*var (--nombre-de-variable) es la forma de utilizar las variables creadas desde el selector :root*/
+	height: var(--heigth-header);
+	width: 100vw;
+}
+
+main {
+	width: 100vw;
+	height: var(--heigth-main);
+	font-size: var(--font);
+}
+
+h1 {
+	color: var(--primary-color);
+	text-align: center;
+	font-size: var(--header-size);
+}
+footer {
+	background-color: var(--secondary-color);
+	width: 100vw;
+	height: var(--heigth-footer);
+}
