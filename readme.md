@@ -22,6 +22,7 @@ The "clases" folder has the files used or created while studing
 1. **33-medidas**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/33-medidas/index.html "View html for sizes") and [style.css](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/33-medidas/style.css "View CSS code and explanation for sizes") The sizes in CSS are absolutes and relatives. HTML get some context about sizes types and CSS code has explanation for use of all. [View rendered code](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/clases/33-medidas/)
 1. **37-position**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/37-position/index.html "HTML Structure with 4 boxes") and [style.css](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/37-position/style.css "CSS code for position") In a 4 boxes structures change the position to 1 box named "two" to relative and absolute positions. [View rendered code](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/clases/37-position/)
 1. **38-display**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/38-display/index.html "Description about display property") and [style.css](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/38-display/style.css "Just styles for HTML code") The HTML file has an explanation about the display property and css converts a unorganized vertical list into horizontal list. [View rendered code](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/clases/38-display/)
+1. **39-flex**: [index.html](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/39-flex/index.html "simply HTML code to a main container with 5 boxes ") and [style.css](https://github.com/chybeat/platzi-curso-definitivo-de-html-y-css/blob/main/clases/39-flex/style.css "Styles using flexbox") The HTML code has only simply code for 5 boxes inside a main container and the CSS has a lot of comments about some properties and delcarations bout use of flex. [View rendered code](https://chybeat.github.io/platzi-curso-definitivo-de-html-y-css/clases/39-flex/)
 
 ---
 
@@ -97,3 +98,5 @@ Create HTML and CSS code to create a layout with a header, aside, content an d f
 1. The aside needs to cover the height of the page with 4 elements covering height. The width
 1. The content may has only one paragraph
 1. The footer diveded in two sections one for social networks and other for information
+
+> **The index.html file has an important javascript code!!!**

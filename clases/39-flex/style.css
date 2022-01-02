@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+.container {
+	border: 0.3rem solid greenyellow;
+	display: flex;
+	/*	align-items: normal;*/
+	/* flex-direction: row; */
+	flex-wrap: wrap;
+	/*	height: 80vh;*/
+	/* justify-content: normal; */
+}
+/*
+display:flex se debe utilizar desde un contenedor principal y hace que cada uno de los hijos se convierta en un bloque distinto. Flex por defecto ordena los elementos uno junto a otro en la misma fila, la declaración que hace eso es "flex-direction:row;" y su valor se puede cambiar por row-reverse, column, column-reverse; los elementos que tiene "-reverse" hacen que los elementos se vean de izquierda a derecha tanto en posición como en orden
+
+Otra propiedad de flex es que los elementos internos no hacen un salto de línea cuando el espacio del contenedor es menor al total del ancho de los contenedores internos, los contenedores internos se redimensionan para caber en el 100% del ancho del contenedor. La propiedad "flex-wrap" permite o no el salto de línea, su valor predeterminado es "nowrap"; si se quiere que los contenedores siempre mantengan su tamaño y en caso de no caber realicen un salto de línea se debe colocar el valor de flex-wrap en "wrap". Tambíen existe "wrap-reverse", que deja los últimos elementos (según el ancho del conenedor) en la misma fila y salta o baja el resto.
+
+La propiedad "justify-content" alínea horizontalmente los elementos. Su valores son:
+
+center:			centra todos los contenedores respecto al contenedor;
+end:				alinea todos los contenedores al final del contenedor
+flex-end:		Similar a end, pero solo para los contenedores e hijos que hagan parte del modelo flexbox
+start:			alinea los elementos al inicio del contenedor
+left:				alinea los elementos a la izquierda del contenedor
+normal:			(predeterminada) alinea los elementos a la izquiera o derecha dependiendo de la dirección del texto (propiedad 'direction' o atributo 'dir' en etiquetas)
+space-around:	da un espacio proporcionado a la derecha e izquierda de cada contenedor hijo.
+space-between: da un espacio proporcionado entre cada contenedor hijo, al extremo del contenedor no deja espacio
+space-evenly:	da un espacio proporcionado entre cada contenedor y los extremos, es la forma visual mas equitativa
+
+Con align-items podemos alinear los elementos hijos en vertical
+
+baseline:		coloca los elementos (si no tienen un alto declarado) utilizando el espacio de su contenido sin igualar el alto de los demás 
+center:			centra verticalemtne los elementos hijo
+flex-end:		coloca los elementos en la parte inferior del contenedor
+flex-start:		coloca los elementos en la parte superior del contenedor
+stretch:			Estira los elementos al alto del contenedor, en caso de haber varias líneas, estira los contenedores de forma que todos los contenedores tengan el mismo alto
+normal:			(predeterminada) coloca los elementos en la parte superior rellenando el 100% del contenedor (si no tienen un alto declarado)
+*/
+
+.box {
+	height: 10rem;
+	flex-basis: 10rem;
+	flex-grow: 1;
+	/* La propiedad flex-basis coloca un tamaño mínimo especifico a los contenedores, de no tener espacio (como si el contenedor tiene flex-warp:wrap) los elementos saltarán a la siguiente línea, al colocarlo con flex-grow los elementos que tengan grow crecerán y harán que ocupe el 100% del ancho de la ventana incluso los que han hecho el salto de línea*/
+}
+
+.box1 {
+	background-color: blue;
+
+	/*	order: 0;*/
+	/*
+	order permite cambiar el orden o prioridad de renderizado de un elemento hijo en un contenedor flex, su valor predeterminado es 0 (cero) y significa su prioridad, cualquier valor por encima de 1 se colocará en otro orden pero para que sean validos los órdenes se debe especificar un orden a cada elemento. Si un elemento tiene un valor igual a otro, su "prioridad" se tomará del orden en que esté escrito el código
+*/
+}
+.box2 {
+	background-color: blueviolet;
+}
+.box3 {
+	background-color: burlywood;
+	/*	flex-grow: 1;*/
+	/*
+	La propiedad flex-grow, sirve para rellenar el espacio vacio que puede quedar en el ancho de un contenedor al ser este último mas grande que. El relleno se obtiene de restar el tamaño que ocupan los elementos del tamaño que tiene el container y dividirlo en el total de factores (valor o valores de flex-grow), luego se le suma a cada elemento el resultado de esa división la cantidad de veces que el valor de flex-grow lo indica.
+*/
+}
+.box4 {
+	background-color: cadetblue;
+	/*	flex-grow: 2;*/
+}
+.box5 {
+	background-color: coral;
+	/*	flex-grow: 1;*/
+}
+.box6 {
+	background-color: salmon;
+}
