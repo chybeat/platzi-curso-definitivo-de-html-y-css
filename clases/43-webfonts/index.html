@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WebFonts</title>
+		<link rel="stylesheet" href="./style.css" />
+		<style>
+			html {
+				display: block;
+			}
+		</style>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Roboto+Mono:wght@300;500;700"
+			rel="stylesheet"
+		/>
+		<!--
+		Este último link trae las fuentes de google fonts, para este caso trae 3 fuentes en diversos tamaños (grueso de fuente / font-weight)
+		Dancing Script: 400,500,700
+		Roboto Mono: 300,500,700
+		Great Vibes (ancho único o normal)
+		&display=swap es una propiedad anidada desde google fonts que le permite al navegador cargar y renderizar todo el contenido de la página con la fuente predeterminada del navegador y cuando el proyecto completo esté listo realizar el cambio de fuente.
+
+		link rel="preconnect" se utiliza para realizar una conexión previa a un servidor sin llamar datos, abre la conexión. El atributo 'crossorigin' realiza una conexión segura (adicional) a un servidor para obtener los datos
+
+	-->
+	</head>
+	<body>
+		<header class="main-header">
+			<h1 class="main-header__title">WebFonts</h1>
+		</header>
+		<section class="generic-fonts">
+			<p class="generic-fonts__description">Aqui verás una relación de fuentes genéricas y como lucen</p>
+			<table class="fonts-table">
+				<thead class="fonts-table__header">
+					<tr class="fonts-table__row">
+						<th class="fonts-table__cell fonts-table__cell--header">Nombre genérico</th>
+						<th colspan="2" class="fonts-table__cell fonts-table__cell--header">Ejemplos de fuente</th>
+					</tr>
+				</thead>
+				<tbody class="fonts-table__body">
+					<tr class="fonts-table__row">
+						<td class="fonts-table__cell font__serif--serif">serif</td>
+						<td class="fonts-table__cell font__serif--times-new-roman">Times New Roman</td>
+						<td class="fonts-table__cell font__serif--georgia">Georgia</td>
+					</tr>
+					<tr class="fonts-table__row">
+						<td class="fonts-table__cell font__sans-serif--sans-serif">sans-serif</td>
+						<td class="fonts-table__cell font__sans-serif--helvetica">Helvetica</td>
+						<td class="fonts-table__cell font__sans-serif--verdana">Verdana</td>
+					</tr>
+					<tr class="fonts-table__row">
+						<td class="fonts-table__cell font__cursive--cursive">cursive</td>
+						<td class="fonts-table__cell font__cursive--dancing-script">Dancing Script</td>
+						<td class="fonts-table__cell font__cursive--great-vibes">Great Vibes</td>
+					</tr>
+					<tr class="fonts-table__row">
+						<td class="fonts-table__cell font__monospace--monospace">monospace</td>
+						<td class="fonts-table__cell font__monospace--courier-new">Courier New</td>
+						<td class="fonts-table__cell font__monospace--roboto-mono">Roboto Mono</td>
+					</tr>
+				</tbody>
+				<tfoot class="fonts-table__footer">
+					<tr class="fonts-table__row">
+						<td colspan="3" class="fonts-table__cell">
+							Muestra de fuentes tomada del
+							<a href="https://platzi.com/clases/2008-html-css/31229-web-fonts/" target="_blank">gráfico en el curso</a>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+			<article class="explanation">
+				<h2 class="explanation__title">Buenas practicas al incrsutar fuentes</h2>
+				<ol class="best-practices">
+					<li class="best-practices__element">Solo cargar una fuente por proyecto</li>
+					<li class="best-practices__element">Importar siempre las fuentas desde la etiqueta head</li>
+				</ol>
+			</article>
+		</section>
+	</body>
+</html>
