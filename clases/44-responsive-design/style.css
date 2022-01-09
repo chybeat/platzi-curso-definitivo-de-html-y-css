@@ -50,6 +50,47 @@ body {
 	height: auto;
 }
 
+@media (min-width: 600px) {
+	.column-drop .c1 {
+		width: 25%;
+		order: 1;
+	}
+	.column-drop .c2 {
+		width: 75%;
+		order: 2;
+	}
+	.column-drop .c3 {
+		width: 100%;
+		order: 3;
+	}
+	.column-drop .c4 {
+		width: 100%;
+		order: 4;
+	}
+	.column-drop .c5 {
+		width: 100%;
+		order: 5;
+	}
+}
+
+@media (min-width: 800px) {
+	.column-drop .c1 {
+		width: 30%;
+	}
+	.column-drop .c2 {
+		width: 40%;
+	}
+	.column-drop .c3 {
+		width: 30%;
+	}
+	.column-drop .c4 {
+		width: 50%;
+	}
+	.column-drop .c5 {
+		width: 50%;
+	}
+}
+
 /* Break point 
 @media (min-width: 600px) {
 	Cuando la pantalla tenga de 600px en adelante se colocará todo el css en este bloque
