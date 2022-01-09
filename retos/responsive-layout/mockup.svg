@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3973.9299"
+   height="1180"
+   viewBox="0 0 3973.93 1180"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="mockup.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-page="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.80065411"
+     inkscape:cx="953.5953"
+     inkscape:cy="272.90186"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="194.03268"
+       y="342.91962"
+       width="245.60785"
+       height="110.30981"
+       id="rect12608" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.5830002,-78.520447)">
+    <rect
+       style="fill:#4d4d4d;stroke:none;stroke-width:5.7263;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect20268"
+       width="820"
+       height="1180"
+       x="448.36404"
+       y="78.520447" />
+    <g
+       id="g38716"
+       transform="translate(-7.4374695,108.55304)">
+      <rect
+         style="fill:#0000ff;stroke:none;stroke-width:4.35255;stroke-miterlimit:3.3;stop-color:#000000"
+         id="rect36245"
+         width="820"
+         height="96"
+         x="455.80151"
+         y="-30.032593" />
+      <text
+         xml:space="preserve"
+         style="font-size:16px;line-height:1.25;font-family:sans-serif;fill:#e6e6e6"
+         x="698.97729"
+         y="25.737659"
+         id="text36249"><tspan
+           sodipodi:role="line"
+           id="tspan36247"
+           x="698.97729"
+           y="25.737659">Info | Video | Clases del curso | Contacto</tspan></text>
+      <rect
+         style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.46319;stroke-miterlimit:3.3;stop-color:#000000"
+         id="rect36251"
+         width="64"
+         height="64"
+         x="471.802"
+         y="-14.032593" />
+    </g>
+    <rect
+       style="fill:#4d4d4d;stroke:none;stroke-width:5.96255;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21340"
+       width="768"
+       height="1366"
+       x="-846.52051"
+       y="2616.5129"
+       transform="rotate(-90)" />
+    <g
+       id="g39455"
+       transform="translate(1.5625119e-8,108.55304)">
+      <g
+         id="g38704"
+         transform="translate(-5.720459)">
+        <rect
+           style="fill:#0000ff;stroke:none;stroke-width:5.61775;stroke-miterlimit:3.3;stop-color:#000000"
+           id="rect38692"
+           width="1366"
+           height="96"
+           x="2622.2334"
+           y="-30.032593" />
+        <text
+           xml:space="preserve"
+           style="font-size:16px;line-height:1.25;font-family:sans-serif;fill:#e6e6e6"
+           x="3045.4092"
+           y="25.737659"
+           id="text38696"><tspan
+             sodipodi:role="line"
+             id="tspan38694"
+             x="3045.4092"
+             y="25.737659">Info | Video | Clases del curso | Contacto</tspan></text>
+        <rect
+           style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.46319;stroke-miterlimit:3.3;stop-color:#000000"
+           id="rect38698"
+           width="64"
+           height="64"
+           x="2638.2339"
+           y="-14.032593" />
+      </g>
+    </g>
+    <rect
+       style="fill:#4d4d4d;stroke:none;stroke-width:5.7263;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21394"
+       width="820"
+       height="1180"
+       x="78.520447"
+       y="-2513.8992"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#0000ff;stroke:none;stroke-width:4.26316;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21400"
+       width="1180"
+       height="64"
+       x="1333.8992"
+       y="78.520447" />
+    <g
+       id="g39288"
+       transform="translate(0,108.55304)">
+      <rect
+         style="fill:#0000ff;stroke:none;stroke-width:4.26317;stroke-miterlimit:3.3;stop-color:#000000"
+         id="rect38567"
+         width="1180"
+         height="64"
+         x="1333.8992"
+         y="-30.032593" />
+      <text
+         xml:space="preserve"
+         style="font-size:16px;line-height:1.25;font-family:sans-serif;fill:#e6e6e6"
+         x="1757.075"
+         y="6.5533447"
+         id="text38571"><tspan
+           sodipodi:role="line"
+           id="tspan38569"
+           x="1757.075"
+           y="6.5533447">Info | Video | Clases del curso | Contacto</tspan></text>
+      <rect
+         style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.09739;stroke-miterlimit:3.3;stop-color:#000000"
+         id="rect38573"
+         width="48"
+         height="48"
+         x="1341.899"
+         y="-22.032593" />
+    </g>
+    <rect
+       style="fill:#4d4d4d;stroke:none;stroke-width:3.29804;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect910"
+       width="375"
+       height="855.90802"
+       x="8.5834732"
+       y="78.520447" />
+    <g
+       id="g38722"
+       transform="translate(7.4102267,108.55304)">
+      <rect
+         style="fill:#0000ff;stroke:none;stroke-width:2.40329;stroke-miterlimit:3.3;stop-color:#000000"
+         id="rect1152-3"
+         width="375"
+         height="64"
+         x="1.1732465"
+         y="-30.032593" />
+      <text
+         xml:space="preserve"
+         style="font-size:16px;line-height:1.25;font-family:sans-serif;fill:#e6e6e6"
+         x="125.38406"
+         y="6.5533447"
+         id="text32398"><tspan
+           sodipodi:role="line"
+           id="tspan32396"
+           x="125.38406"
+           y="6.5533447">Info | Video | Clases del curso</tspan></text>
+      <rect
+         style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.09739;stroke-miterlimit:3.3;stop-color:#000000"
+         id="rect36036"
+         width="48"
+         height="48"
+         x="9.1733665"
+         y="-22.032593" />
+    </g>
+    <text
+       xml:space="preserve"
+       id="text12606"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect12608);fill:#000000;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#ffd42a;stroke:none;stroke-width:1.97487;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect2708-5-7"
+       width="375"
+       height="180"
+       x="8.5830002"
+       y="658.08368" />
+    <rect
+       style="fill:#00ff00;stroke:none;stroke-width:1.61249;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect2708"
+       width="375"
+       height="120"
+       x="8.5834732"
+       y="142.52045" />
+    <rect
+       style="fill:#ff8080;stroke:none;stroke-width:1.97487;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect2708-5"
+       width="375"
+       height="180"
+       x="8.5834732"
+       y="262.52045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="72.821754"
+       y="212.93062"
+       id="text3562"><tspan
+         sodipodi:role="line"
+         id="tspan3560"
+         x="72.821754"
+         y="212.93062">Una Imagen</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="194.89206"
+       y="317.41302"
+       id="text5138"><tspan
+         sodipodi:role="line"
+         id="tspan5136"
+         x="194.89206"
+         y="317.41302"
+         style="text-align:center;text-anchor:middle">Un texto desc</tspan><tspan
+         sodipodi:role="line"
+         x="194.89206"
+         y="367.41302"
+         id="tspan5140"
+         style="text-align:center;text-anchor:middle">de imagen y</tspan><tspan
+         sodipodi:role="line"
+         x="194.89206"
+         y="417.41302"
+         id="tspan5252"
+         style="text-align:center;text-anchor:middle">contenido</tspan></text>
+    <rect
+       style="fill:#ccff00;stroke:none;stroke-width:1.17758;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect2708-5-7-4"
+       width="375"
+       height="64"
+       x="8.5830002"
+       y="870.08392" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="194.89159"
+       y="737.97626"
+       id="text5138-0"><tspan
+         sodipodi:role="line"
+         id="tspan5136-7"
+         x="194.89159"
+         y="737.97626"
+         style="text-align:center;text-anchor:middle">Un texto desc</tspan><tspan
+         sodipodi:role="line"
+         x="194.89159"
+         y="787.97626"
+         id="tspan5252-6"
+         style="text-align:center;text-anchor:middle">del video</tspan></text>
+    <rect
+       style="fill:#c87137;stroke:none;stroke-width:2.43845;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect15520"
+       width="375"
+       height="183.5627"
+       x="8.5830002"
+       y="474.5209" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="107.21582"
+       y="581.19489"
+       id="text16392"><tspan
+         sodipodi:role="line"
+         id="tspan16390"
+         x="107.21582"
+         y="581.19489">Un video</tspan></text>
+    <rect
+       style="fill:#ff8080;stroke:none;stroke-width:2.7533;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect20282"
+       width="410.00003"
+       height="320"
+       x="-858.36407"
+       y="174.52045"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#00ff00;stroke:none;stroke-width:2.75333;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect20276"
+       width="410"
+       height="320"
+       x="-1268.364"
+       y="174.52045"
+       transform="scale(-1,1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="940.10229"
+       y="344.9306"
+       id="text20280"><tspan
+         sodipodi:role="line"
+         id="tspan20278"
+         x="940.10229"
+         y="344.9306">Una Imagen</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="652.17267"
+       y="299.41302"
+       id="text20290"><tspan
+         sodipodi:role="line"
+         id="tspan20284"
+         x="652.17267"
+         y="299.41302"
+         style="text-align:center;text-anchor:middle">Un texto desc</tspan><tspan
+         sodipodi:role="line"
+         x="652.17267"
+         y="349.41302"
+         id="tspan20286"
+         style="text-align:center;text-anchor:middle">de imagen y</tspan><tspan
+         sodipodi:role="line"
+         x="652.17267"
+         y="399.41302"
+         id="tspan20288"
+         style="text-align:center;text-anchor:middle">contenido</tspan></text>
+    <rect
+       style="fill:#ff8080;stroke:none;stroke-width:2.7533;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect20292"
+       width="410.00003"
+       height="320"
+       x="-858.36407"
+       y="174.52045"
+       transform="scale(-1,1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="652.17267"
+       y="299.41302"
+       id="text20300"><tspan
+         sodipodi:role="line"
+         id="tspan20294"
+         x="652.17267"
+         y="299.41302"
+         style="text-align:center;text-anchor:middle">Un texto desc</tspan><tspan
+         sodipodi:role="line"
+         x="652.17267"
+         y="349.41302"
+         id="tspan20296"
+         style="text-align:center;text-anchor:middle">de imagen y</tspan><tspan
+         sodipodi:role="line"
+         x="652.17267"
+         y="399.41302"
+         id="tspan20298"
+         style="text-align:center;text-anchor:middle">contenido</tspan></text>
+    <rect
+       style="fill:#c87137;stroke:none;stroke-width:4.46113;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect20302"
+       width="640"
+       height="359.99997"
+       x="538.36401"
+       y="668.52045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="769.49683"
+       y="863.41302"
+       id="text20306"><tspan
+         sodipodi:role="line"
+         id="tspan20304"
+         x="769.49683"
+         y="863.41302">Un video</tspan></text>
+    <rect
+       style="fill:#ffd42a;stroke:none;stroke-width:2.38443;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect20308"
+       width="820.00006"
+       height="120"
+       x="448.36401"
+       y="548.52045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="857.17261"
+       y="598.41302"
+       id="text20314"><tspan
+         sodipodi:role="line"
+         id="tspan20310"
+         x="857.17261"
+         y="598.41302"
+         style="text-align:center;text-anchor:middle">Un texto desc</tspan><tspan
+         sodipodi:role="line"
+         x="857.17261"
+         y="648.41302"
+         id="tspan20312"
+         style="text-align:center;text-anchor:middle">del video</tspan></text>
+    <rect
+       style="fill:#ccff00;stroke:none;stroke-width:2.13269;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21334"
+       width="820"
+       height="96"
+       x="448.36404"
+       y="1079.6616" />
+    <rect
+       style="fill:#00ff00;stroke:none;stroke-width:5.02565;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21344"
+       width="1366"
+       height="320"
+       x="-3982.5129"
+       y="174.52051"
+       transform="scale(-1,1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="3176.2512"
+       y="344.93066"
+       id="text21354"><tspan
+         sodipodi:role="line"
+         id="tspan21352"
+         x="3176.2512"
+         y="344.93066">Una Imagen</tspan></text>
+    <rect
+       style="fill:#ff8080;fill-opacity:0.699411;stroke:none;stroke-width:3.07753;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21364"
+       width="1366"
+       height="120"
+       x="-3982.5129"
+       y="374.35706"
+       transform="scale(-1,1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="3298.8098"
+       y="445.42151"
+       id="text21372"><tspan
+         x="3298.8098"
+         y="445.42151"
+         id="tspan21370"
+         style="text-align:center;text-anchor:middle"
+         sodipodi:role="line">Un texto desc de imagen y contenido</tspan></text>
+    <rect
+       style="fill:#c87137;stroke:none;stroke-width:4.46113;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21374"
+       width="640"
+       height="359.99997"
+       x="3342.5129"
+       y="494.52051" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="3573.6458"
+       y="689.41309"
+       id="text21378"><tspan
+         sodipodi:role="line"
+         id="tspan21376"
+         x="3573.6458"
+         y="689.41309">Un video</tspan></text>
+    <rect
+       style="fill:#ffd42a;stroke:none;stroke-width:3.88692;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21380"
+       width="726"
+       height="360.16342"
+       x="2616.5129"
+       y="494.35706" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="2978.3215"
+       y="664.3313"
+       id="text21386"><tspan
+         sodipodi:role="line"
+         id="tspan21382"
+         x="2978.3215"
+         y="664.3313"
+         style="text-align:center;text-anchor:middle">Un texto desc</tspan><tspan
+         sodipodi:role="line"
+         x="2978.3215"
+         y="714.3313"
+         id="tspan21384"
+         style="text-align:center;text-anchor:middle">del video</tspan></text>
+    <rect
+       style="fill:#ccff00;stroke:none;stroke-width:2.75262;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21388"
+       width="1366"
+       height="96"
+       x="2616.5129"
+       y="854.52051" />
+    <rect
+       style="fill:#00ff00;stroke:none;stroke-width:3.15002;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21398"
+       width="496.3266"
+       height="346"
+       x="-1877.0625"
+       y="142.52045"
+       transform="scale(-1,1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="1505.6375"
+       y="325.9306"
+       id="text21408"><tspan
+         sodipodi:role="line"
+         id="tspan21406"
+         x="1505.6375"
+         y="325.9306">Una Imagen</tspan></text>
+    <rect
+       style="fill:#ff8080;stroke:none;stroke-width:3.14999;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21418"
+       width="496.32666"
+       height="346"
+       x="-1877.0625"
+       y="488.52045"
+       transform="scale(-1,1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="1627.7078"
+       y="626.41302"
+       id="text21426"><tspan
+         sodipodi:role="line"
+         id="tspan21420"
+         x="1627.7078"
+         y="626.41302"
+         style="text-align:center;text-anchor:middle">Un texto desc</tspan><tspan
+         sodipodi:role="line"
+         x="1627.7078"
+         y="676.41302"
+         id="tspan21422"
+         style="text-align:center;text-anchor:middle">de imagen y</tspan><tspan
+         sodipodi:role="line"
+         x="1627.7078"
+         y="726.41302"
+         id="tspan21424"
+         style="text-align:center;text-anchor:middle">contenido</tspan></text>
+    <rect
+       style="fill:#c87137;stroke:none;stroke-width:3.8502;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21428"
+       width="496"
+       height="346"
+       x="1975.3787"
+       y="142.52045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="2134.5115"
+       y="337.41302"
+       id="text21432"><tspan
+         sodipodi:role="line"
+         id="tspan21430"
+         x="2134.5115"
+         y="337.41302">Un video</tspan></text>
+    <rect
+       style="fill:#ffd42a;stroke:none;stroke-width:3.14895;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21434"
+       width="496"
+       height="346"
+       x="1975.3787"
+       y="488.52045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="2223.792"
+       y="651.60175"
+       id="text21440"><tspan
+         sodipodi:role="line"
+         id="tspan21436"
+         x="2223.792"
+         y="651.60175"
+         style="text-align:center;text-anchor:middle">Un texto desc</tspan><tspan
+         sodipodi:role="line"
+         x="2223.792"
+         y="701.60175"
+         id="tspan21438"
+         style="text-align:center;text-anchor:middle">del video</tspan></text>
+    <rect
+       style="fill:#ccff00;stroke:none;stroke-width:2.0889;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect21442"
+       width="1180"
+       height="64"
+       x="1333.8992"
+       y="834.52045" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:sans-serif;fill:#0000ff"
+       x="117.8955"
+       y="906.97845"
+       id="text43393"><tspan
+         sodipodi:role="line"
+         id="tspan43391"
+         x="117.8955"
+         y="906.97845">Sígueme en GitHub</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:sans-serif;fill:#0000ff"
+       x="780.17651"
+       y="1132.5562"
+       id="text43397"><tspan
+         sodipodi:role="line"
+         id="tspan43395"
+         x="780.17651"
+         y="1132.5562">Sígueme en GitHub</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:sans-serif;fill:#0000ff"
+       x="1845.7117"
+       y="871.41498"
+       id="text43481"><tspan
+         sodipodi:role="line"
+         id="tspan43479"
+         x="1845.7117"
+         y="871.41498">Sígueme en GitHub</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:sans-serif;fill:#0000ff"
+       x="3221.3254"
+       y="907.41504"
+       id="text43645"><tspan
+         sodipodi:role="line"
+         id="tspan43643"
+         x="3221.3254"
+         y="907.41504">Sígueme en GitHub</tspan></text>
+    <rect
+       style="fill:#000000;stroke:#00ff00;stroke-width:2.04524;stroke-miterlimit:3.3;stop-color:#000000"
+       id="rect1220"
+       width="673.51025"
+       height="377.95477"
+       x="1247.8268"
+       y="-697.18982" />
+  </g>
+</svg>

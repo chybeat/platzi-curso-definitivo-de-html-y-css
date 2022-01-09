@@ -1,0 +1,8 @@
+body {
+	font-size: 18px;
+}
+.main,
+.footer__container {
+	max-width: 56em;
+	margin: 0 auto;
+}

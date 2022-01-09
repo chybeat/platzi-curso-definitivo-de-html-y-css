@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Reto: Responsive Layout</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./tablet.css" media="screen and (min-width:800px)" />
+		<link rel="stylesheet" href="./desktop.css" media="screen and (min-width:1024px)" />
+		<link rel="preconnect" href="https://cdn.videvo.net" />
+		<link rel="preconnect" href="https://www.youtube.com/" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<img class="header__logo" src="./assets/img/logo-ram.svg" alt="logo de memoria RAM" />
+				<nav class="nav">
+					<ul class="nav__container">
+						<li class="nav__element"><a title="Conoce sobre la memoria RAM" href="#ram" class="nav__link">RAM</a></li>
+						<li class="nav__element">
+							<a title="Mira y aprende con contenido audiovisual" href="#media" class="nav__link">Medios</a>
+						</li>
+						<li class="nav__element">
+							<a title="Archivos del curso definitivo de HTML y CSS en Platzi" href="../../clases/" class="nav__link"
+								>Clases</a
+							>
+						</li>
+						<li class="nav__element">
+							<a title="Mira como contactarme" href="#social-network" class="nav__link">Contacto</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<h1 class="main__title">Reto: Responsive layout</h1>
+			<section id="ram" class="ram-intro">
+				<article class="ram-intro__article ram-intro__header">
+					<h2 class="ram-intro__title">La memoria RAM</h2>
+					<div class="ram-intro__container">
+						<picture class="ram-intro__image" alt="imagen zócalos de memoria">
+							<source media="(min-width:1280px)" srcset="./assets/img/ram-ddr4-big.jpg" />
+							<!-- Experimento con resoluciones desktop HD o mejores-->
+							<img src="./assets/img/ram-ddr4-small.jpg" />
+						</picture>
+						<p class="ram-intro__description">
+							La memoria RAM es un componente básico en cualquier dispositivo y juega un papel fundamental en el rendimiento
+							del sistema.
+						</p>
+					</div>
+				</article>
+				<article class="ram-intro__article">
+					<div class="ram-intro__videocontainer">
+						<h2 class="ram-intro__title">¿Qué es la memoria RAM?</h2>
+						<video
+							id="ram-intro-video"
+							autoplay
+							loop
+							alt="Flying Along Taksin Bridge"
+							class="ram-intro__videoplayer"
+							controlslist="nodownload"
+						>
+							<source
+								type="video/mp4"
+								src="https://cdn.videvo.net/videvo_files/video/free/2013-08/large_watermarked/CircuitBoardTrackAcrossVidevo_preview.mp4"
+							/>
+						</video>
+					</div>
+					<p class="ram-intro__text">
+						RAM son las siglas de «Random Access Memory» o «Memoria de Acceso Aleatorio». La memoria RAM se mide por su
+						capacidad: kilobytes, megabytes, actualmente gigabytes, y terabytes en futuro no muy lejano. Se inserta en la placa
+						base y se comunica con diversos elementos del sistema almacenando datos e instrucciones para que puedan ser
+						accedidos por otros componentes, evitando que tengan que volver a pasar por el procesador luego de solicitarlos.
+					</p>
+					<p class="ram-intro__text">
+						Es importante tener en cuenta además que la memoria RAM es un tipo de memoria volátil, lo que significa que a
+						diferencia de los HDDs o los SSDs pierde la información almacenada una vez que se apaga o reinicia el dispositivo.
+					</p>
+				</article>
+			</section>
+			<section id="media" class="ram-media">
+				<h2 class="ram-media__title">Videos sobre la memoria RAM</h2>
+				<article class="ram-media__article">
+					<div class="ram-media__article--youtube">
+						<div class="ram-media__video-container--16-9">
+							<iframe
+								class="ram-media__iframe"
+								src="https://www.youtube.com/embed/RVGIXfC4Xeg"
+								title="Sistema BINARIO y puertas lógicas"
+								alt="video de Sistema BINARIO y puertas lógicas"
+								frameborder="0"
+								allow="encrypted-media; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+						<p class="ram-media__description">El sistema binario, de electricidad a mundos virtuales</p>
+					</div>
+					<div class="ram-media__article--youtube">
+						<div class="ram-media__video-container--16-9">
+							<iframe
+								class="ram-media__iframe"
+								src="https://www.youtube.com/embed/yRNwl24l39E"
+								title="Todo sobre la RAM - Parte 1"
+								alt="video de Todo sobre la RAM - Parte 1"
+								frameborder="0"
+								allow="encrypted-media; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+						<p class="ram-media__description">Que es la RAM y como transmite información</p>
+					</div>
+					<div class="ram-media__article--youtube">
+						<div class="ram-media__video-container--16-9">
+							<iframe
+								class="ram-media__iframe"
+								src="https://www.youtube.com/embed/OZCEHXlHY4E"
+								title="Todo sobre la RAM - Parte 2"
+								alt="video de Todo sobre la RAM - Parte 2"
+								frameborder="0"
+								allow="encrypted-media; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+						<p class="ram-media__description">Cómo es y cómo se maneja la información en la RAM.</p>
+					</div>
+					<div class="ram-media__article--youtube">
+						<div class="ram-media__video-container--16-9">
+							<iframe
+								class="ram-media__iframe"
+								alt="video de RAM DDR 5"
+								src="https://www.youtube.com/embed/yUeE4NmMj48"
+								title="Por Esto inventarion la nueva RAM DRR5 ft. G.Skill Z5"
+								frameborder="0"
+								allow="encrypted-media; picture-in-picture"
+								allowfullscreen
+							></iframe>
+						</div>
+						<p class="ram-media__description">¿Que tenemos en el 2021? DDR5!</p>
+					</div>
+				</article>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<p id="social-network" class="footer__follow">
+					Sigueme en <a href="https://github.com/chybeat" target="_blank"> GitHub</a>
+					<img class="icon" src="./assets/img/logo-github.svg" alt="github icon" />
+				</p>
+				<ul class="copyright">
+					<li class="copyright-element">
+						<a href="https://www.pexels.com/photo/black-and-gray-motherboard-2582932/" target="_blank">Photo</a> by
+						<a href="https://www.pexels.com/@athena" target="_blank">Athena</a> from
+						<a href="https://www.pexels.com/" target="_blank"
+							>Pexels <img src="./assets/img/logo-pexels.svg" alt="logo pexels.com" class="icon copyright__icon" />
+						</a>
+					</li>
+					<li class="copyright-element">
+						<a href="https://www.svgrepo.com/svg/288629/ram" target="_blank">RAM icon</a> from
+						<a href="https://www.svgrepo.com/" target="_blank"
+							>SVG REPO <img src="./assets/img/logo-svgrepo.svg" alt="logo svgrepo.com" class="icon copyright__icon"
+						/></a>
+					</li>
+					<li class="copyright-element">
+						<a href="https://fonts.google.com/specimen/Roboto" target="_blank">Font</a> designed by
+						<a href="https://fonts.google.com/specimen/Roboto#about">Christian Robertson</a>
+						from
+						<a href="https://fonts.google.com/" target="_blank"
+							>Google fonts
+							<img src="./assets/img/logo-google-fonts.svg" alt="logo google fonts" class="icon copyright__icon"
+						/></a>
+					</li>
+					<li class="copyright-element">
+						Información basada en el artículo:
+						<a href="https://www.muycomputer.com/2018/11/04/memoria-ram-que-es-recomendaciones/" target="_blank"
+							>Memoria RAM: qué es, por qué es importante y recomendaciones</a
+						>
+						de <a href="https://www.muycomputer.com" target="_blank">muycomputer.com</a>
+					</li>
+				</ul>
+				<script>
+					const autoPlayVideo = document.getElementById("ram-intro-video");
+					autoPlayVideo.oncanplaythrough = function () {
+						autoPlayVideo.muted = true;
+						autoPlayVideo.play();
+						autoPlayVideo.pause();
+						autoPlayVideo.play();
+					};
+				</script>
+			</div>
+		</footer>
+	</body>
+</html>

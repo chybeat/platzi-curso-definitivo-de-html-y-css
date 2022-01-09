@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive Design</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./tablet.css" media="screen and (min-width:600px)" />
+		<link rel="stylesheet" href="./desktop.css" media="screen and (min-width:800px)" />
+		<!--Etiquetas link para llamar los archivos css dependiendo del ancho de pantalla
+
+		-->
+	</head>
+	<body>
+		<header>
+			<h1>Responsive Desing</h1>
+		</header>
+		<section class="description">
+			<article>
+				<h2>¿Que es responisive design?</h2>
+				<p>
+					Es una serie de estategias que llevan a que el contenido de un poyecto web esté optimizado para ver en cualquier
+					dispositivo.
+				</p>
+			</article>
+			<article>
+				<h2>Media querys y break points</h2>
+				<p></p>
+				<h3>Break Points</h3>
+				<p>Son dimensaiones en los que se determina el punto de partida para que un contenido se reorganice</p>
+				<h3>Media querys</h3>
+				<p>Es un selector de CSS que permite colocar un break point. Son similares a lo siguiente:</p>
+				<p><code>@media (min-width: 480px{ ... })</code>.</p>
+				<p>
+					Esto quiere decir: cuando la pantalla (media) sea mas pequeña (min-width) que 480px, se tomarán los estilos que están
+					dentro de los corchetes
+				</p>
+				<p>La mejor práctica para colocarlos es desde el head de HTML del siguiente modo:</p>
+				<p><code>&lt;link rel="stylesheet" href="style.css"&gt;</code>*</p>
+				<p><code>&lt;link rel="stylesheet" href="tablet.css" media="screen and (min-width:768)"&gt;</code></p>
+				<p><code>&lt;link rel="stylesheet" href="desktop.css" media="screen and (min-width:1024)"&gt;</code></p>
+				<p>
+					*El primer enlace a la hoja de estilos (el CSS principal) debe ser para mobiles, de este modo se aplica el método Mobile
+					First
+				</p>
+			</article>
+			<article>
+				<h2>Estrategias de maquetación para responsive design</h2>
+				<p>Existen 3 estrategias que se deben elegir dependiendo del proyecto para realizar responsive design</p>
+				<ul>
+					<li>
+						<strong>Mostly Fuid</strong>: hace que todo el contenido empiece como columnas y cuando empiezan a crecer el espacio
+						(o ancho de pantalla) las columnas dependiendo de los contenidos se vayan reacomodando en filas.
+					</li>
+					<li>
+						<strong>Layout Shifter</strong>: Esta estragía hace que ciertos bloques se reacomoden, para esto se necesita
+						acomodar elementos dentro de contenedores padre.
+					</li>
+					<li><strong></strong></li>
+				</ul>
+			</article>
+		</section>
+		<section class="sandbox mostly-fluid">
+			<h2>Mostly Fluid</h2>
+			<div class="c1"></div>
+			<div class="c2"></div>
+			<div class="c3"></div>
+			<div class="c4"></div>
+			<div class="c5"></div>
+		</section>
+		<section class="sandbox layout-shifter">
+			<h2>Layout Shifter</h2>
+			<div class="c1"></div>
+			<div class="c4">
+				<div class="c2"></div>
+				<div class="c3"></div>
+			</div>
+			<div class="c5"></div>
+		</section>
+	</body>
+</html>

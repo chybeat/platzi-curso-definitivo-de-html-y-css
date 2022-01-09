@@ -1,0 +1,31 @@
+.sandbox {
+	width: 800px;
+	margin: 0 auto;
+}
+.mostly-fluid .c1 {
+	width: 60%;
+}
+.mostly-fluid .c2 {
+	width: 40%;
+}
+.mostly-fluid .c3,
+.mostly-fluid .c4 {
+	width: 33%;
+}
+.mostly-fluid .c5 {
+	width: 34%;
+}
+
+.layout-shifter .c1 {
+	width: 50%;
+	order: 1;
+}
+
+.layout-shifter .c4 {
+	width: 100%;
+}
+
+.layout-shifter .c5 {
+	width: 50%;
+	order: 2;
+}

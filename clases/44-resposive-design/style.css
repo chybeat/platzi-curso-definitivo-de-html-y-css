@@ -1,0 +1,95 @@
+html {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+body {
+	font-size: 1.6rem;
+}
+
+.sandbox {
+	display: flex;
+	flex-wrap: wrap;
+}
+.sandbox * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.sandbox h2 {
+	width: 100%;
+	text-align: center;
+}
+.c1 {
+	background-color: #003476;
+}
+.c2 {
+	background-color: #0062d2;
+}
+.c3 {
+	background-color: #b4d2f7;
+}
+.c4 {
+	background-color: #dbd178;
+}
+.c5 {
+	background-color: #dfe1e5;
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+	width: 100%;
+	min-width: 100px;
+	height: 150px;
+}
+
+.layout-shifter .c4 {
+	height: auto;
+}
+
+/* Break point 
+@media (min-width: 600px) {
+	Cuando la pantalla tenga de 600px en adelante se colocará todo el css en este bloque
+	.mostly-fluid .c2,
+	.mostly-fluid .c3,
+	.mostly-fluid .c4 {
+		width: 50%;
+	}
+
+	.layout-shifter .c1{
+		width: 25px;
+	}
+
+	.layout-shifter .c4{
+		width: 75px;
+	}
+
+	.layout-shifter .c5{
+		width: 100%
+	}
+}
+
+/* Break point 
+@media (min-width: 800px) {
+	.mostly-fluid {
+		width: 800px;
+		margin: 0 auto;
+	}
+	.mostly-fluid .c1 {
+		width: 60%;
+	}
+	.mostly-fluid .c2 {
+		width: 40%;
+	}
+	.mostly-fluid .c3,
+	.mostly-fluid .c4 {
+		width: 33%;
+	}
+	.mostly-fluid .c5 {
+		width: 34%;
+	}
+}
+*/
